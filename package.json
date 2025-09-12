@@ -1,0 +1,23 @@
+{
+  "name": "salsa",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "client.js",
+  "bin": {
+    "salsa": "./bin/salsa.js"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "node client/index.js",
+    "connect": "salsa connect",
+    "server": "salsa server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "ws": "^8.18.3"
+  }
+}
